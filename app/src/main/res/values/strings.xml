@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recipes Catalogue</string>
+    <string name="txt_breakfast">Breakfast</string>
+    <string name="txt_vegetarian">Vegetarian</string>
+    <string name="txt_dessert">Dessert</string>
+    <string name="txt_seafood">Seafood</string>
+    <string name="content_image_for_banner">Image For Recipe Banner</string>
+    <string name="txt_recipe_name_banner">Garlic Butter Shrimp</string>
+    <string name="txt_1_2_k">1.2 K</string>
+    <string name="txt_cooked">Cooked</string>
+    <string name="content_image_for_recipes">Image For Recipes</string>
+    <string name="txt_detail_recipe">Detail Recipe</string>
+    <string name="content_image_for_detail_recipe">Image For Detail Recipe</string>
+    <string name="txt_calories">Calories</string>
+    <string name="txt_carbo">Carbo</string>
+    <string name="txt_resep">Resep</string>
+    <string name="txt_bahan_bahan">Bahan-bahan:</string>
+    <string name="txt_instruksi_pembuatan">Instruksi Pembuatan:</string>
+</resources>
