@@ -1,19 +1,100 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Recipes Catalogue</string>
     <string name="txt_breakfast">Breakfast</string>
     <string name="txt_vegetarian">Vegetarian</string>
     <string name="txt_dessert">Dessert</string>
     <string name="txt_seafood">Seafood</string>
-    <string name="content_image_for_banner">Image For Recipe Banner</string>
     <string name="txt_recipe_name_banner">Garlic Butter Shrimp</string>
     <string name="txt_1_2_k">1.2 K</string>
     <string name="txt_cooked">Cooked</string>
-    <string name="content_image_for_recipes">Image For Recipes</string>
     <string name="txt_detail_recipe">Detail Recipe</string>
-    <string name="content_image_for_detail_recipe">Image For Detail Recipe</string>
     <string name="txt_calories">Calories</string>
     <string name="txt_carbo">Carbo</string>
-    <string name="txt_resep">Resep</string>
-    <string name="txt_bahan_bahan">Bahan-bahan:</string>
-    <string name="txt_instruksi_pembuatan">Instruksi Pembuatan:</string>
+    <string name="txt_recipe">Recipe</string>
+    <string name="txt_ingredients">Ingredients:</string>
+    <string name="txt_directions">Directions:</string>
+
+    <string name="content_image_for_banner">Image For Recipe Banner</string>
+    <string name="content_image_for_recipes">Image For Recipes</string>
+    <string name="content_image_for_detail_recipe">Image For Detail Recipe</string>
+    
+    <string-array name="name_seafood">
+        <item>Crispy Potato Cakes with Smoked Salmon</item>
+        <item>Seared Tuna with Shaved Vegetable Salad</item>
+        <item>Salmon with Potatoes and Horseradish Sauce</item>
+        <item>Chipotle-Rubbed Shrimp Taco Salad</item>
+        <item>Caribbean Shrimp Salad with Lime Vinaigrette</item>
+    </string-array>
+
+    <string-array name="category_seafood">
+        <item>Seafood</item>
+        <item>Seafood</item>
+        <item>Seafood</item>
+        <item>Seafood</item>
+        <item>Seafood</item>
+    </string-array>
+
+    <string-array name="description_seafood">
+        <item>Frozen shredded potatoes are a fast cook\'s friend: the excess liquid that usually needs to be squeezed out of fresh spuds is already gone, and they don\'t need to be thawed before cooking. The raw eggs may clump slightly when added to the frozen potatoes; this won\'t affect the finished cakes. Serve the potato cakes for brunch with a simple fruit salad, or for lunch or dinner with mixed greens. You could even make mini cakes for an impressive appetizer. Save the dark green parts of the green onions for sprinkling over top.</item>
+        <item>Root vegetables are a super popular side in the winter, usually roasted until fully tender. But shaving them raw into a side dish salad is a fantastic alternative. They\'re ready in just a few minutes, their earthy flavors stay vibrant, and a simple vinaigrette tenderizes them slightly while retaining a little crunch, balancing the velvety tuna. A mild olive oil that won\'t compete with the vegetables or the tuna works here. Rice vinegar is not as tangy as other varieties. If you prefer a little more bite, try white wine or apple cider vinegar.</item>
+        <item>You\'ll be surprised at the sophistication of this 5-ingredient dish, which is easy, elegant, and beautiful. You can honestly never go wrong when you start with salmon and a sour cream sauce, especially if that sauce is flavored with dill and horseradish. Fill out the plate and complete the meal with a side of steamed asparagus or haricots verts (slender French green beans), or barely wilted spinach or Swiss chard. If you have a mandoline in your kitchen, use it—carefully—on the potatoes to make the job of slicing go faster.</item>
+        <item>Crispy baked taco shells hold a bowl full of sweet heat! Chipotle-Rubbed Shrimp Taco Salad is flavored with chili and chipotle powders and bedded in a crisp tortilla shell and drizzled with a honey lime cilantro vinaigrette. It is so full of flavor and a great summer salad recipe for those busy weeknights!</item>
+        <item>This amazing salad packed with lots of goodies, all of them bursting with flavor. Creamy avocado, grilled pineapple and red onions, crunchy jicama, zesty herbs, and toasted coconut are piled in a bowl of fresh garden greens.</item>
+    </string-array>
+
+    <string-array name="ingredients_seafood">
+        <item tools:ignore="TypographyFractions">1/4 cup plus 1 Tbsp. very thinly sliced green onions, divided\n1/4 teaspoon kosher salt\n1 pound shredded refrigerated or frozen potatoes (such as Simply Potatoes)\n2 large eggs, lightly beaten\n1 1/2 tablespoons all-purpose flour\n1 1/2 tablespoons all-purpose flour\n4 ounces cold-smoked salmon\n3 tablespoons light sour cream (optional)</item>
+        <item tools:ignore="TypographyFractions">1/4 cup extra-virgin olive oil, divided\n1 tablespoon rice vinegar\n1 teaspoon kosher salt, divided\n3/4 teaspoon Dijon mustard\n3/4 teaspoon honey\n4 ounces baby gold beets, thinly shaved\n1 (4-oz.) fennel bulb, trimmed and thinly shaved\n4 ounces baby turnips, thinly shaved\n1 (6-oz.) Granny Smith apple, very thinly sliced\n2 teaspoons toasted sesame seeds\n4 (6-oz.) tuna steaks\n1/2 teaspoon black pepper\n1 tablespoon torn fennel fronds</item>
+        <item tools:ignore="TypographyFractions">3 tablespoons canola oil, divided\n1 pound baby red potatoes, cut into 1/4-in.-thick slices\n1/2 cup water\n1 teaspoon kosher salt, divided\n3/4 teaspoon black pepper, divided\n4 (6-oz.) skin-on salmon fillets (1 in. thick)\n1/2 cup light sour cream\n2 tablespoons chopped fresh dill\n1 tablespoon creamy prepared horseradish</item>
+        <item tools:ignore="TypographyFractions">3 tablespoons chopped fresh cilantro\n3 tablespoons minced shallots\n3 tablespoons fresh lime juice\n2 teaspoons honey\n1/2 teaspoon salt\n2 tablespoons olive oil\n1 refrigerated (8-inch) flour tortilla taco salad shell kit (such as Azteca)\n1 pound peeled and deveined jumbo shrimp\n½ teaspoon chili powder\n1/4 teaspoon ground chipotle chile powder\n⅛ teaspoon salt\nCooking spray\n6 cups packaged prechopped romaine hearts\n1 1/2 cups chopped peeled ripe mango (about 1 large)\n1/2 cup cherry tomatoes, halved\n4 radishes, quartered</item>
+        <item tools:ignore="TypographyFractions">4 cups chopped cooked shrimp (about 1 1/2 pounds)\n5 tablespoons seasoned rice vinegar, divided\n2 tablespoons chili garlic sauce (such as Lee Kum Kee)\n1 1/2 tablespoons olive oil\n1 tablespoon grated lime rind\n1/4 cup fresh lime juice (about 3 large limes)\n1/2 teaspoon paprika\n1/2 teaspoon ground cumin\n2 garlic cloves, minced\nDash of salt\n8 cups fresh baby spinach\n1 cup chopped peeled mango (about 1 large)\n1 cup julienne-cut radishes\n¼ cup diced peeled avocado\n1/2 cup thinly sliced green onions\n2 tablespoons unsalted pumpkinseed kernels</item>
+    </string-array>
+
+    <string-array name="instructions_seafood">
+        <item tools:ignore="TypographyFractions">1. Combine 3 tablespoons green onions, salt, potatoes, and eggs in a large bowl. Stir in flour.\n2. Heat 1 tablespoon oil in a large nonstick skillet over medium-high. Spoon 1/3 cup potato mixture loosely into a dry measuring cup. Add to pan; flatten slightly. Repeat procedure 3 times to form 4 cakes. Cook 4 minutes on each side or until browned and crisp. Place cakes on a platter. Repeat procedure with remaining 1 tablespoon oil and remaining potato mixture until you have 8 cakes.\n3. Top cakes evenly with salmon, sour cream, if desired, and remaining 2 tablespoons green onions.</item>
+        <item tools:ignore="TypographyFractions">1. Combine 2 tablespoons oil, vinegar, 1/2 teaspoon salt, mustard, and honey in a large bowl. Add beets, fennel, turnips, and apple; toss to coat. Sprinkle salad with sesame seeds.\n2. Heat remaining 2 tablespoons oil in a cast-iron skillet over high. Sprinkle tuna with pepper and remaining 1/2 teaspoon salt; place in hot pan. Cook 90 seconds on both sides (for rare) or until desired degree of doneness. Remove tuna from pan. Slice thinly, and serve with salad; top with fennel fronds.</item>
+        <item tools:ignore="TypographyFractions">1. Heat 1 1/2 tablespoons oil in a large nonstick skillet over medium-high. Add potatoes; cook 8 minutes or until golden, stirring occasionally. Add 1/2 cup water; bring to a boil. Reduce heat and simmer, partially covered, 8 minutes or until potatoes are tender. Sprinkle with 1/2 teaspoon salt and 1/2 teaspoon pepper.\n2. Meanwhile, heat remaining 1 1/2 tablespoons oil in a large skillet over high. Sprinkle salmon with remaining 1/2 teaspoon salt and remaining 1/4 teaspoon pepper. Add salmon to pan; cook 4 minutes on each side or until desired degree of doneness.\n3. Combine sour cream, dill, and horseradish in a bowl. Serve with salmon and potatoes.</item>
+        <item tools:ignore="TypographyFractions">1. Preheat oven to 350°.\n2. Combine first 5 ingredients in a small bowl, stirring with a whisk. Gradually add oil, stirring constantly with a whisk.\n3. Bake tortilla shells at 350° according to package directions.\n4. While shells bake, heat a grill pan over medium-high heat. Combine shrimp, chili powders, and salt in a large bowl; toss well to coat. Coat pan with cooking spray. Add shrimp to pan; cook 2 minutes on each side or until done.\n5. Combine lettuce, mango, tomato, and radishes. Drizzle vinaigrette over salad; toss to coat. Place about 1 1/2 cups salad in each tortilla shell; divide shrimp evenly among salads.</item>
+        <item tools:ignore="TypographyFractions">1. Combine shrimp, 2 tablespoons vinegar, and chili garlic sauce in a large bowl; toss well. Cover and chill 1 hour.\n2. Combine remaining 3 tablespoons vinegar, oil, and next 6 ingredients (through salt) in a small bowl, stirring with a whisk.\n3. Place 2 cups spinach on each of 4 plates; top each serving with 1 cup shrimp mixture. Arrange 1/4 cup mango, 1/4 cup radishes, and 1 tablespoon avocado around shrimp on each plate. Top each serving with 2 tablespoons green onions and 1 1/2 teaspoons pumpkinseed kernels. Drizzle each salad with 2 tablespoons vinaigrette.</item>
+    </string-array>
+
+    <string-array name="photo_seafood">
+        <item>https://i.ibb.co/fCBz63m/seafood-1.jpg</item>
+        <item>https://i.ibb.co/Dt0Ywnq/seafood-2.jpg</item>
+        <item>https://i.ibb.co/fGrHdb5/seafood-3.jpg</item>
+        <item>https://i.ibb.co/HFpSfyd/seafood-4.jpg</item>
+        <item>https://i.ibb.co/4KCxdgT/seafood-5.jpg</item>
+    </string-array>
+
+    <string-array name="price_seafood">
+        <item>55 K</item>
+        <item>80 K</item>
+        <item>65 K</item>
+        <item>60 K</item>
+        <item>60 K</item>
+    </string-array>
+
+    <string-array name="calories_seafood">
+        <item>238</item>
+        <item>366</item>
+        <item>457</item>
+        <item>405</item>
+        <item>281</item>
+    </string-array>
+
+    <string-array name="carbo_seafood">
+        <item>27</item>
+        <item>12</item>
+        <item>20</item>
+        <item>46</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="protein_seafood">
+        <item>13</item>
+        <item>43</item>
+        <item>37</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
 </resources>

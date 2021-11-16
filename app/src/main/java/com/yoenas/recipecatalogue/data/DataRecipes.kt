@@ -2,7 +2,7 @@ package com.yoenas.recipecatalogue.data
 
 object DataRecipes {
     //region Breakfast
-    val nameBreakfast = arrayOf(
+    private val nameBreakfast = arrayOf(
         "Omelette",
         "Scrambled Eggs",
         "Avocado Toast",
@@ -14,7 +14,7 @@ object DataRecipes {
         "Smoothies",
         "Chicken Wrap"
     )
-    val categoryBreakfast = arrayOf(
+    private val categoryBreakfast = arrayOf(
         "Breakfast",
         "Breakfast",
         "Breakfast",
@@ -26,7 +26,7 @@ object DataRecipes {
         "Breakfast",
         "Breakfast"
     )
-    val descriptionBreakfast = arrayOf(
+    private val descriptionBreakfast = arrayOf(
         "Variasi hidangan telur goreng yang disiapkan dengan cara mengocok telur dan menggorengnya dengan minyak goreng atau mentega panas di sebuah wajan.",
         "Makanan yang terbuat dari telur (biasanya telur ayam) diaduk atau dikocok bersama dalam wajan atau penggorengan saat dipanaskan dengan lembut, biasanya ditambahkan garam, mentega, dan bahan lainnya yang bervariasi.",
         "Avocado toast merupakan roti panggang beroles alpukat. Menu ini mengenyangkan sekaligus bernutrisi karena tinggi lemak sehat dan serat.",
@@ -39,7 +39,7 @@ object DataRecipes {
         "Tumisan ayam dengan sayuran segar dibungkus roti tortilla bisa jadi camilan di sore hari atau buat isi kotak makan siang."
     )
 
-    val ingredientsBreakfast = arrayOf(
+    private val ingredientsBreakfast = arrayOf(
         "4 butir telur, pisahkan kuning dan putih telur\n1 sdt Royco Kaldu Ayam\n1 sdm margarin\n1 batang daun bawang, iris tipis",
         "2 butir telor ayam\n100 ml susu cair putih\nsesuai selera parutan keju\ngaram\nlada bubuk\n2 sdm mentega",
         "2 lembar roti tawar\n2 butir telur\n1 buah alpukat\n1 sdt perasan jeruk nipis\n1/2 sdt garam\n1/4 lada\n1 lembar keju\n1 sdm butter",
@@ -51,7 +51,7 @@ object DataRecipes {
         "1 Buah Pisang Beku\n10 Buah Strawberry Beku\n1 Cup Yogurt Plain 80 ml (Me Biokul)\n1 Kotak Susu UHT Full Cream isi 250 ml (Boleh pakai 1/2nya aja)",
         "1/2 kg dada ayam\n3 buah paprika, iris memanjang\n1 buah bawang bombay, iris memanjang\nOlive oil\nTortilla\nMayonais\nSaus sambal"
     )
-    val instructionsBreakfast = arrayOf(
+    private val instructionsBreakfast = arrayOf(
         "1. Pisahkan putih dan kuning telur di wadah yang berbeda.\n2. Taburkan lada hitam ke kuning telur secukupnya dan tambahkan 1 sdt Royco Kaldu Ayam.\n3. Kocok putih telur selama kurang lebih dua menit hingga mengembang. Pertahankan konsistensi mengocok agar hasilnya optimal.\n4. Kocok kuning telur dan pastikan agar tidak menggumpal.\n5. Campurkan putih telur bersama dengan kuning telur yang masing-masing telah dikocok. Aduk rata.\n6. Panaskan wajan dan 1 sdm margarin di atas api besar. Tuangkan telur ke dalam wajan dan ratakan seluruh permukaan.\n7. Taburkan daun bawang dan tutup wajan selama 10 detik. Matikan api dan sajikan omelet dalam bentuk setengah lingkaran.",
         "1. Kocok telur bersama garam/royko, & lada hingga merata\n2. Masukan parutan keju cheddar dalam mangkuk, aduk kembali hingga merata\n3. Panaskan mentega hingga mencair di atas teflon dengan api sedang hingga leleh\n4. Lalu masukan telur dan aduk telur hingga membuat gumpalan seperti di foto\n5. Lalu masukan susu cair, aduk sebentar & diamkan hingga susu meresap ke dalam telur\n6. Scrambled egg siap disajikan",
         "1. Pilih alpukat yang sudah matang sempurna, kerok dan haluskan, beri perasan jeruk nipis, garam dan lada.\n2. Panaskan teflon, lelehkan 1/2 SDM butter, masak roti tingga keemasan di ke dua sisinya. Sisihkan.\n3. Lanjut Masak telur hingga tingkat kematangan yang disukai.\n4. Oleskan alpukat di atas roti, kemudian beri 1/2 bagian keju slice kemudian tata telur di atasnya. Bole beri sedikit cabe bubuk jika suka.",
@@ -64,7 +64,7 @@ object DataRecipes {
         "1. Cuci dan belah dada ayam menjadi 2 bagian tipis, keringkan dengan paper towel. Balurkan secara merata bumbu pada ayam, marinasi.\n2. Panaskan olive oil, masak ayam hingga matang. Angkat, iris memanjang.\n3. Panaskan olive oil, tumis bawang bombay hingga layu. Masukkan paprika, tambahkan bumbu, aduk selama beberapa menit. Matikan api.\n4.Sajikan sebagai wrap dengan tortilla, mayonais, saus sambal, dan scrambled egg. Panggang wrap di toaster atau skillet. Sajikan. "
     )
 
-    val photoBreakfast = arrayOf(
+    private val photoBreakfast = arrayOf(
         "https://i.ibb.co/CvkLFx9/img-b-1.jpg",
         "https://i.ibb.co/X3nTSHB/download.jpg",
         "https://i.ibb.co/0f0x0pp/Avocado-Toast-With-Egg-13-copy.jpg",
@@ -76,7 +76,7 @@ object DataRecipes {
         "https://i.ibb.co/xzfV5QF/download-1.jpg",
         "https://i.ibb.co/Bc2KYyp/download-2.jpg"
     )
-    val priceBreakfast = arrayOf(
+    private val priceBreakfast = arrayOf(
         "10 K",
         "20 K",
         "1 K",
@@ -88,7 +88,7 @@ object DataRecipes {
         "19 K",
         "20 K"
     )
-    val caloriesBreakfast = arrayOf(
+    private val caloriesBreakfast = arrayOf(
         "500",
         "120",
         "1200",
@@ -100,7 +100,7 @@ object DataRecipes {
         "419",
         "320"
     )
-    val carboBreakfast = arrayOf(
+    private val carboBreakfast = arrayOf(
         "400",
         "720",
         "900",
@@ -112,7 +112,7 @@ object DataRecipes {
         "109",
         "360"
     )
-    val proteinBreakfast = arrayOf(
+    private val proteinBreakfast = arrayOf(
         "560",
         "200",
         "890",
@@ -148,7 +148,7 @@ object DataRecipes {
         }
 
     //region Vegetarian
-    val nameVegetarian = arrayOf(
+    private val nameVegetarian = arrayOf(
         "Quinoa Bowls with Avocado and Egg",
         "Egg Foo Young With Mushroom Sauce",
         "Brussels Sprouts and Crispy Tempeh With Soy Dressing",
@@ -160,7 +160,7 @@ object DataRecipes {
         "Farro, Green Bean, and Kale Salad",
         "Rigatoni with Kale Pesto"
     )
-    val categoryVegetarian = arrayOf(
+    private val categoryVegetarian = arrayOf(
         "Vegetarian",
         "Vegetarian",
         "Vegetarian",
@@ -172,7 +172,7 @@ object DataRecipes {
         "Vegetarian",
         "Vegetarian"
     )
-    val descriptionVegetarian = arrayOf(
+    private val descriptionVegetarian = arrayOf(
         "Sarapan cepat dan memuaskan ini sarat dengan makanan anti-inflamasi: minyak zaitun extra-virgin, alpukat, tomat, quinoa, dan telur omega-3. Untuk manfaat anti-inflamasi yang lebih banyak lagi, sajikan dengan jeruk atau jeruk bali. Telur yang diperkaya omega-3 berasal dari ayam yang diberi makan makanan kaya omega-3 (biasanya mengandung biji rami).",
         "Pikirkan telur foo young sebagai persilangan antara telur dadar gaya Amerika dan panekuk Cina yang renyah, sarat dengan sayuran dan di atasnya dengan saus jamur gurih. Ini adalah makanan yang sangat cepat berkat selada brokoli yang dikemas, wortel potong korek api, dan nasi merah yang dapat di-microwave. Wajan yang lebih kecil (8 hingga 10 inci) akan menghasilkan panekuk yang lebih tinggi dan lebih pulen. Saus Tamari sedikit lebih kental dari kecap dengan rasa yang lebih kuat (banyak merek juga bebas gluten). Gunakan di mana pun Anda menggunakan kecap, terutama dalam bumbu perendam daging.",
         "Hidangan pedas ala Thailand ini seperti semburan kesegaran yang hangat — tetapi dengan bahan-bahan yang sama baiknya selama bulan-bulan musim dingin. Cari tempe dengan subs daging vegetarian lainnya di lorong produksi.",
@@ -185,7 +185,7 @@ object DataRecipes {
         "Pasta gandum utuh akan menjadi pilihan lezat di sini, melengkapi rasa kale yang bersahaja. Selain melunakkan kale, merebus cepat membantu mempertahankan warna hijau tua di pesto, bahkan saat melapisi pasta panas. Keju Pecorino sedikit lebih pedas daripada Parmigiano-Reggiano, jadi keju ini cocok dengan kale. Kami menyukai nada bunga cerah yang ditambahkan kulit lemon ke pesto."
     )
 
-    val ingredientsVegetarian = arrayOf(
+    private val ingredientsVegetarian = arrayOf(
         "2 teaspoons extra-virgin olive oil, divided\n1 teaspoon red wine vinegar\n1/4 teaspoon kosher salt, divided\n1 cup hot cooked tricolor quinoa\n1 cup grape tomatoes, halved\n1/2 cup canned unsalted black beans, rinsed, drained, and warmed\n2 tablespoons chopped cilantro, plus more for garnish\n2 large omega-3 eggs\n1/2 ripe avocado, sliced",
         "2 tablespoons sesame oil, divided\n3/4 cup matchstick-cut carrot\n1 bunch green onions, thinly sliced, white and green parts divided\n2 cups packaged broccoli slaw\n1 teaspoon minced peeled fresh ginger\n3 garlic cloves, grated\n1 tablespoon unseasoned rice vinegar\n1 1/2 tablespoons tamari sauce or reduced-sodium soy sauce, divided\n3/4 teaspoon freshly ground black pepper, divided\n6 large eggs, lightly beaten\n1 cup unsalted vegetable stock\n1 tablespoon all-purpose flour\n1 (8-oz.) pkg. presliced cremini mushrooms\n2 (8.8-oz.) pkg. precooked brown rice\n1 tablespoon toasted sesame seeds",
         "2 tablespoons sesame oil, divided\n4 ounces tempeh, thinly sliced\n4 teaspoons lower-sodium soy sauce\n2 teaspoons rice vinegar\n1/8 teaspoon kosher salt\n2 tablespoons chopped fresh cilantro, divided\n11/2 cups very thinly sliced Brussels sprouts\n6 thin Fresno chile slices\n2 tablespoons chopped unsalted peanuts, toasted\n2 lime wedges",
@@ -197,7 +197,7 @@ object DataRecipes {
         "4 cups water\n1 cup halved haricots verts or green beans\n2 tablespoons red wine vinegar\n1 1/2 tablespoons extra-virgin olive oil\n1 teaspoon Dijon mustard\n1/4 teaspoon kosher salt\n1/4 teaspoon black pepper\n1 (8.5-oz.) pkg. precooked farro (2 cups)\n2 cups thinly sliced lacinato kale\n1 cup halved cherry or grape tomatoes\n1 ounce feta cheese, crumbled (about 1/4 cup)",
         "2 bunches lacinato kale, stemmed\n2 tablespoons pine nuts, toasted\n2 garlic cloves, chopped\n1/2 cup extra-virgin olive oil\n1 tablespoon freshly grated lemon rind\n2 ounces fresh pecorino Romano cheese, finely grated (about 1/2 cup)\n1/2 teaspoon kosher salt\n1/2 teaspoon freshly ground black pepper\nDash of Aleppo pepper (optional)\n1 pound rigatoni pasta"
     )
-    val instructionsVegetarian = arrayOf(
+    private val instructionsVegetarian = arrayOf(
         "1. Kocok bersama 1 1/2 sendok teh minyak, cuka, dan sedikit garam.\n2. Campurkan quinoa, tomat, kacang-kacangan, daun ketumbar, dan 1/8 sendok teh garam; aduk perlahan untuk menggabungkan. Bagi campuran secara merata di antara 2 mangkuk.\n3. Panaskan wajan antilengket sedang di atas sedang. Tambahkan sisa 1/2 sendok teh minyak; berputar untuk melapisi. Pecahkan telur, 1 per satu, ke dalam wajan. Penutup; masak sampai putih diatur dan kuning telur masih berair, 2 hingga 3 menit. Gerimis saus secara merata di atas campuran quinoa; atasnya dengan telur dan alpukat. Taburi dengan sisa garam. Hiasi dengan daun ketumbar tambahan, jika diinginkan.",
         "1. Panaskan ayam pedaging; letakkan rak di posisi tengah atas.\n2. Panaskan 1 sendok makan minyak dalam wajan tahan oven 10 inci di atas sedang-tinggi. Tambahkan wortel dan bagian putih daun bawang; tumis 3 menit. Tambahkan selada dr kubis, jahe, dan bawang putih; masak 3 menit, aduk sesekali. Tambahkan cuka; masak 1 menit atau sampai cairan menguap.\n3. Campurkan 1 1/2 sendok teh tamari, 1/4 sendok teh merica, dan telur dalam mangkuk, aduk dengan pengocok. Tambahkan campuran telur ke campuran selada dr kubis dalam panci, miringkan panci untuk menyebarkan campuran secara merata. Masak 3 hingga 4 menit atau sampai telur berada di bagian bawah. Tempatkan panci di oven; panggang 2 menit atau sampai bagian atas diatur dan berwarna keemasan. Potong menjadi empat.\n4. Campurkan kaldu dan tepung dalam mangkuk, aduk dengan pengocok. Panaskan sisa 1 sendok makan minyak dalam wajan di atas sedang-tinggi. Tambahkan jamur; masak 5 menit atau sampai kecoklatan. Tambahkan campuran tepung; didihkan, dan masak 1 menit atau sampai campuran sedikit mengental. Aduk sisa 1 sendok makan tamari dan 1/4 sendok teh merica.\n5. Panaskan nasi sesuai petunjuk kemasan; membagi rata di antara 4 piring. Taburi setiap porsi dengan 1 irisan panekuk dan 1/4 cangkir campuran jamur; atas merata dengan bagian hijau bawang, sisa 1/4 sendok teh merica, dan biji wijen.",
         "1. Panaskan wajan sedang di atas sedang-tinggi. Tambahkan 1 sendok makan minyak ke dalam wajan; berputar untuk melapisi. Tambahkan tempe, masak hingga sangat renyah dan cokelat, sekitar 2 menit per sisi. Pindahkan ke piring.\n2.Kocok kecap, cuka, garam, 1 sendok makan daun ketumbar, dan sisa minyak wijen dalam mangkuk sedang. Tambahkan kubis Brussel, dan aduk untuk melapisi. Bagi campuran di antara 2 mangkuk. Taburi dengan irisan cabai dan kacang tanah, dan taburi dengan irisan tempe. Gerimis dengan sisa saus, dan taburi dengan sisa 1 sendok makan daun ketumbar. Sajikan dengan irisan jeruk nipis. ",
@@ -210,7 +210,7 @@ object DataRecipes {
         "1. Didihkan air dalam panci besar. Isi mangkuk besar dengan air es. Bekerja dalam dua atau tiga kelompok, rendam kangkung dalam air mendidih selama 15 detik sampai layu dan hijau tua; angkat, dan segera celupkan ke dalam air es selama 15 detik. Tiriskan kangkung dengan baik; letakkan di atas lapisan handuk kertas, dan tekan untuk menghilangkan kelebihan cairan. Tempatkan kangkung, kacang pinus, dan bawang putih dalam food processor atau blender. Pulsa sampai dicincang kasar. Perlahan tambahkan oli dengan motor berjalan; Blender hingga pesto halus. Tempatkan pesto dalam mangkuk sedang; campur kulit, keju, garam, dan merica.\n2. Masak pasta sesuai petunjuk kemasan, tanpa garam dan lemak. Saat pasta al dente, tiriskan, sisakan 1 cangkir cairan masak pasta. Kembalikan pasta ke dalam wajan dengan api sedang-rendah; aduk pesto. Tambahkan cairan masak pasta, 1 sendok makan sekaligus, sampai saus mencapai konsistensi yang diinginkan."
     )
 
-    val photoVegetarian = arrayOf(
+    private val photoVegetarian = arrayOf(
         "https://i.ibb.co/tLM0T3y/image.jpg",
         "https://i.ibb.co/r4nRfhx/image-1.jpg",
         "https://i.ibb.co/zsqL6H5/download-4.jpg",
@@ -222,7 +222,7 @@ object DataRecipes {
         "https://i.ibb.co/PzZj0Bw/download-6.jpg",
         "https://i.ibb.co/4pRTgrd/image-6.jpg"
     )
-    val priceVegetarian = arrayOf(
+    private val priceVegetarian = arrayOf(
         "20 K",
         "30 K",
         "20 K",
@@ -234,7 +234,7 @@ object DataRecipes {
         "92 K",
         "13 K"
     )
-    val caloriesVegetarian = arrayOf(
+    private val caloriesVegetarian = arrayOf(
         "127",
         "186",
         "168",
@@ -246,7 +246,7 @@ object DataRecipes {
         "198",
         "137"
     )
-    val carboVegetarian = arrayOf(
+    private val carboVegetarian = arrayOf(
         "400",
         "720",
         "900",
@@ -258,7 +258,7 @@ object DataRecipes {
         "109",
         "360"
     )
-    val proteinVegetarian = arrayOf(
+    private val proteinVegetarian = arrayOf(
         "2560",
         "2200",
         "2890",
@@ -294,7 +294,7 @@ object DataRecipes {
         }
 
     //region Dessert
-    val nameDessert = arrayOf(
+    private val nameDessert = arrayOf(
         "Banana Pudding",
         "Manggo Pancake",
         "Pudding Custard",
@@ -306,7 +306,7 @@ object DataRecipes {
         "Smoothies",
         "Banana milk crispy"
     )
-    val categoryDessert = arrayOf(
+    private val categoryDessert = arrayOf(
         "Dessert",
         "Dessert",
         "Dessert",
@@ -318,7 +318,7 @@ object DataRecipes {
         "Dessert",
         "Dessert"
     )
-    val descriptionDessert = arrayOf(
+    private val descriptionDessert = arrayOf(
         "Puding vanila lembut dengan potongan pisang ini termasuk hidangan populer di negeri Paman Sam",
         "Variasi Kue dadar dengan tambahan mangga yang dibuat dari terigu, telur ayam, gula dan susu. Bahan-bahan dicampur dengan air membentuk adonan kental yang digoreng di atas wajan datar yang diolesi sedikit minyak.",
         "Custard dibuat dengan memasak susu dan gula lalu menambahkan telur utuh agar mengental. Ketika selesai dimasak dan didinginkan, custard menjadi padat, konsistensinya seperti jelly, dan tekstur seperti sutra. Custard juga hadir dengan rasa buah-buahan atau diberi topping potongan buah agar lebih nikmat.",
@@ -331,7 +331,7 @@ object DataRecipes {
         "Olahan pisang yang mengandung susu dan memiliki tekstur yang crispy atau crunchy. Bahkan aneka topping seperti kismis, almond, dan keju yang diberikan juga memberikan tambahan rasa manis, legit, dan gurih menjadi satu."
     )
 
-    val ingredientsDessert = arrayOf(
+    private val ingredientsDessert = arrayOf(
         "4 buah pisang kepok\n1 bungkus agar2 plain\n3 sdm munjung gula pasir\n1 sachet skm putih, dicampur dengan 250ml air\n1/4 sdt vanili\n1/2 bungkus keju parut\n1 butir telur",
         "125 gr tepung terigu\n1 butir telur ayam, dikocok lepas\n1/4 sdt garam\n275 ml susu cair\nWhipping cream\nMangga",
         "1 bungkus agar-agar (7 gr)\n800 cc air\n1 liter susu cair\n8 sdm tepung custard\n20 sdm gula pasir (sesuai selera)\n4 butir kuning telur, kocok lepas\n1/2 sdt garam\n1 sdt essence vanila\n2 sdt rum (boleh tidak memakainya)",
@@ -343,7 +343,7 @@ object DataRecipes {
         "1 Buah Pisang Beku\n10 Buah Strawberry Beku\n1 Cup Yogurt Plain 80 ml (Me Biokul)\n1 Kotak Susu UHT Full Cream isi 250 ml (Boleh pakai 1/2nya aja)",
         "2 lembar puff pastry instant\n2 buah pisang\nKeju dan meises secukupnya\n100 ml susu cair\n1 butir kuning telur\n1/4 sdt banana essence\n1/2 sdm tepung maizena\n30 gr gula halus\nPewarna kuning"
     )
-    val instructionsDessert = arrayOf(
+    private val instructionsDessert = arrayOf(
         "1. Blender pisang, sampai halus\n2. Masukkan semua bahan, blender hingga tercampur rata\n3. Siapkan cetakan, olesi dengan margarin tipis2, lalu masukkan adonan dalam cetakan\n4. Kukus selama 30 menit\n5. Dinginkan suhu ruang, lalu masukkan lemari es, bila sudah dingin siap disajikan, bisa disajikan dengan topping skm dan  keju atau sesuai selera",
         "1. Campurkan tepung terigu, garam dan telur jadi satu\n2. Tambahkan susu cair secara perlahan sambil diaduk-aduk. Kemudian disaring\n3. Dadar di tempat penggoreng sampai adonan habis\n4. Isi kulit pancake dengan whipping cream dan mangga, lipat seperti amplop\n5. Simpan pancake di kulkas. Pancake mangga enak dimakan dalam kondisi dingin.",
         "1. Campur semua bahan ke dalam panci kecuali rum, aduk rata\n2. Panaskan di atas kompor dengan api sedang sambil terus diaduk hingga mendidih dan mengental. Matikan api dan tambahkan rum, aduk terus sampai agak dingin\n3. Tuang ke dalam cetakan dan biarkan beku. Hias atasnya dengan buah\n4. Siap dihidangkan",
@@ -356,7 +356,7 @@ object DataRecipes {
         "1. Dalam wadah, campurkan susu dengan telur, tepung maizena, gula halus, banana essence dan pewarna kuning, aduk hingga rata, sisihkan\n2. Siapkan loyang berbentuk pisang, letakkan puff pastry diatasnya lalu potong puff pastry mengikuti bentuk loyang\n3. Letakkan meises di atas adonan lalu tambahkan pisang yang sudah dipotong kecil-kecil\n4. Tuang adonan susu hingga menutupi pisang, lalu taburi keju dan meises diatasnya\n5. Panggang di dalam oven dengan suhu 180 derajat Celcius api atas bawah selama, kurang lebih 30 menit hingga kecoklatan, angkat, lepaskan dari loyang.\n6. Sajikan."
     )
 
-    val photoDessert = arrayOf(
+    private val photoDessert = arrayOf(
         "https://i.ibb.co/d6c44mN/easy-banana-pudding-recipe-3051145-hero-01-95f24cb07eba423984b276caf550a8f1.jpg",
         "https://i.ibb.co/0ywZwby/59820-mango-pancake.jpg",
         "https://i.ibb.co/P6XSCLL/download-3.jpg",
@@ -368,7 +368,7 @@ object DataRecipes {
         "https://i.ibb.co/xzfV5QF/download-1.jpg",
         "https://i.ibb.co/9vX2yjH/6-No-K2-Suyuta-Pm-HUNkc-R4-DRJj-Te-Rq1wud-31363032333335373634d41d8cd98f00b204e9800998ecf8427e-800x8.jpg"
     )
-    val priceDessert = arrayOf(
+    private val priceDessert = arrayOf(
         "200 K",
         "340 K",
         "200 K",
@@ -380,7 +380,7 @@ object DataRecipes {
         "292 K",
         "133 K"
     )
-    val caloriesDessert = arrayOf(
+    private val caloriesDessert = arrayOf(
         "3500",
         "3120",
         "21200",
@@ -392,7 +392,7 @@ object DataRecipes {
         "4419",
         "4320"
     )
-    val carboDessert = arrayOf(
+    private val carboDessert = arrayOf(
         "400",
         "720",
         "900",
@@ -404,7 +404,7 @@ object DataRecipes {
         "109",
         "360"
     )
-    val proteinDessert = arrayOf(
+    private val proteinDessert = arrayOf(
         "560",
         "200",
         "890",
