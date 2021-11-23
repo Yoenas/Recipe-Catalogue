@@ -25,7 +25,7 @@ class VegetarianFragment : Fragment() {
     ): View {
 
         _binding = FragmentVegetarianBinding.inflate(inflater, container, false)
-        binding.rvVegetarion.apply {
+        binding.rvVegetarian.apply {
             setHasFixedSize(true)
             layoutManager = GridLayoutManager(context, 2)
             adapter = RecipesAdapter(DataRecipes.listVegetarian)

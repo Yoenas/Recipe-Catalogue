@@ -27,9 +27,9 @@ class DetailActivity : AppCompatActivity() {
 
         binding.apply {
             tvNameRecipeDetail.text = dataRecipes.name
-            tvCaloriesDetail.text = dataRecipes.calories
-            tvCarboDetail.text = dataRecipes.carbo
-            tvProteinDetail.text = dataRecipes.protein
+            tvCalories.text = dataRecipes.calories
+            tvCarbo.text = dataRecipes.carbo
+            tvProtein.text = dataRecipes.protein
             tvDescriptionDetail.text = dataRecipes.description
             tvIngredientsDetail.text = dataRecipes.ingredients
             tvInstructionDetail.text = dataRecipes.instructions

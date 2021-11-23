@@ -25,12 +25,13 @@ class RecipesAdapter(private val listRecipes: ArrayList<Recipes>) :
                 tvCategory.text = category
                 tvPrice.text = price
                 Glide.with(imgRecipe.context).load(photo).into(imgRecipe)
-                holder.itemView.setOnClickListener {
-                    val intent = Intent(it.context, DetailActivity::class.java)
-                    intent.putExtra(DetailActivity.RECIPES_DATA, listRecipes[position])
-                    it.context.startActivity(intent)
-                }
+
             }
+        }
+        holder.itemView.setOnClickListener {
+            val intent = Intent(it.context, DetailActivity::class.java)
+            intent.putExtra(DetailActivity.RECIPES_DATA, listRecipes[position])
+            it.context.startActivity(intent)
         }
     }
 

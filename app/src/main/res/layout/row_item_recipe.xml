@@ -55,7 +55,6 @@
             app:layout_constraintTop_toBottomOf="@id/tv_category" />
 
         <TextView
-            android:id="@+id/tv_cooked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="16dp"
